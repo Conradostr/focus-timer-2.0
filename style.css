@@ -1,0 +1,78 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root{
+  font-size: 62.5%;
+}
+
+body {
+  font-size: 1.6rem;
+  font-family: 'Roboto', sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+
+
+}
+
+main {
+  display: flex;
+  max-width: 82rem;
+  justify-content: space-between;
+  gap: 19.2rem;
+  /*max-height: 33.6rem;*/
+}
+
+.display {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.timer {
+  max-width: 32rem;
+  display: flex;
+}
+
+.controler {
+  display:flex;
+  gap: 4rem;
+}
+
+.timer span {
+  font-size: 12.6rem;
+  font-weight: 500;
+  color:#323238;
+}
+
+button {
+  border: none;
+  background: none;
+  cursor: pointer;
+}
+
+.sound {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 3.2rem;
+  max-width: 30.8rem;
+}
+
+.sound button {
+  width: 13.8rem;
+  height: 15.2rem;
+  background-color: #E1E1E6;
+  border-radius: 2.4rem;
+}
+
+.sound button:focus {
+  background-color: #02799D;
+}
+
+.sound button:focus svg path {
+  fill: #FFFFFF;
+}
